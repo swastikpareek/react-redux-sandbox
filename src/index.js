@@ -4,9 +4,23 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+import 'alertifyjs/build/css/alertify.min.css';
+import 'alertifyjs/build/css/themes/default.min.css';
+
+// Params are placeholders in the URL that begin
+// with a colon, like the `:id` param defined in
+// the route in this example. A similar convention
+// is used for matching dynamic segments in other
+// popular web frameworks like Rails and Express.
+
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
